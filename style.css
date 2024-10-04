@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+}
+
+#canvas-container {
+    width: 100%;
+    height: 100%;
+    position: relative;  /* Ensure absolute-positioned children are relative to this container */
+}
+
+.label {
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    pointer-events: none;  /* Prevent mouse interaction */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2px 5px;
+    border-radius: 5px;
+}
